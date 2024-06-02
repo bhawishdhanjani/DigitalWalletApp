@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(
-  "mongodb+srv://bhawishdhanjanii:4euloBmrbhZyKToj@cluster0.g79bpug.mongodb.net/paytm"
-);
+// Enter Your Mongo DB URL
+let url = "";
+
+mongoose.connect("");
 
 const userSchema = new mongoose.Schema({
   username: {
