@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 // Enter Your Mongo DB URL
 let url = "";
 
-mongoose.connect("");
+mongoose.connect(url);
 
 const userSchema = new mongoose.Schema({
   username: {
